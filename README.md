@@ -16,7 +16,7 @@ npm install save slotty
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import { Slot, Fill, SlotProvider } from '../.';
+import { Slot, Fill, SlotProvider } from 'slotty';
 
 const App = () => {
   const [fillSlot1, setFillSlot1] = React.useState(true);
