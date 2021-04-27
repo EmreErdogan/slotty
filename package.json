@@ -1,7 +1,12 @@
 {
+  "name": "slotty",
   "version": "1.0.1",
+  "description": "Simple React slots",
+  "author": "Emre Erdogan",
   "license": "MIT",
+  "repository": "EmreErdogan/slotty",
   "main": "dist/index.js",
+  "module": "dist/slotty.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
@@ -33,9 +38,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "slotty",
-  "author": "Emre Erdogan",
-  "module": "dist/slotty.esm.js",
   "size-limit": [
     {
       "path": "dist/slotty.cjs.production.min.js",
