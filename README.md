@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install save slotty
+npm i slotty
 ```
 
 ## Usage
