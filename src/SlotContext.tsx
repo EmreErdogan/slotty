@@ -17,5 +17,3 @@ export const SlotContext = React.createContext<SlotContextType>({
   addFiller: _name => {},
   removeFiller: _name => {},
 });
-
-export default SlotContext;

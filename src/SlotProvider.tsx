@@ -45,5 +45,3 @@ export class SlotProvider extends React.Component<
     );
   }
 }
-
-export default SlotProvider;

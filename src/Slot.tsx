@@ -19,5 +19,3 @@ export const Slot: React.FC<SlotProps> = ({ name, children }) => {
 
   return (fillers[name] || slots[name] || null) as any;
 };
-
-export default Slot;

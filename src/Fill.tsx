@@ -19,5 +19,3 @@ export const Fill: React.FC<FillProps> = ({ slot, children }) => {
 
   return null;
 };
-
-export default Fill;
