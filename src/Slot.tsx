@@ -2,9 +2,9 @@ import { useContext, useEffect } from 'react';
 
 import { SlotContext } from './SlotContext';
 
-export type SlotProps = {
+export type SlotProps = React.PropsWithChildren<{
   name: string;
-};
+}>;
 
 export const Slot: React.FC<SlotProps> = ({ name, children }) => {
   const { slots, fillers, addSlot, removeSlot } = useContext(SlotContext);
